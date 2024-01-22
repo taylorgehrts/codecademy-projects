@@ -36,4 +36,6 @@ const autonomousCar = new Car({
     isRunning: true,
     steeringControl: steering
 });
-autonomousCar.respond((0, computer_vision_1.getObstacleEvents)());
+for (let i = 0; i < 15; i++) {
+    autonomousCar.respond((0, computer_vision_1.getObstacleEvents)());
+}

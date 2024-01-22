@@ -69,4 +69,6 @@ const autonomousCar = new Car({
 });
 
 
-autonomousCar.respond(getObstacleEvents())
+for (let i =0; i < 15; i++) {
+  autonomousCar.respond(getObstacleEvents())
+}
